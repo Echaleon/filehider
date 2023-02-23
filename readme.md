@@ -4,6 +4,8 @@ A simple tool written in rust to hide files in a directory, or multiple director
 
 By default it will hide all files it can find, but you can specify a list of file names to hide and/or a list of file extensions to hide.
 
+Can run in immediate mode, where it walks the tree and hides all files and directories that match the given file names and extensions, or in watch mode, where it watches for changes to the files and directories and automatically hides them. Or it can run both, starting in immediate mode and then switching to watch mode.
+
 ## Usage
 
 ```
